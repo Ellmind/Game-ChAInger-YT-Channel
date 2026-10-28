@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How YMonstr accesses, uses, stores, shares and deletes Google and YouTube data.">
+  <meta name="theme-color" content="#145644">
+  <title>Privacy Policy | YMonstr</title>
+  <link rel="canonical" href="https://ellmind.github.io/Game-ChAInger-YT-Channel/privacy.html">
+  <link rel="icon" type="image/svg+xml" href="assets/ymonstr-logo.svg">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="wrap header">
+    <a class="brand" href="index.html"><img src="assets/ymonstr-logo.svg" width="38" height="38" alt=""><span>YMonstr</span></a>
+    <nav class="nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+  <main id="main" class="wrap">
+  <article class="section prose">
+    <p class="eyebrow">YMonstr / Privacy</p><h1>Privacy Policy</h1>
+    <p class="legal-meta">Effective date: October 29, 2026 · Contact: <a href="mailto:maratgood@gmail.com">maratgood@gmail.com</a></p>
+    <p>YMonstr is an owner-operated local toolkit for managing the GameChAInger YouTube channel. The operator is the GameChAInger channel owner, who maintains the <a href="https://github.com/Ellmind/Game-ChAInger-YT-Channel">Ellmind/Game-ChAInger-YT-Channel repository</a>. This policy covers the toolkit and this public information website.</p>
+    <h2>1. Google and YouTube services</h2>
+    <p>YMonstr uses YouTube API Services, specifically the YouTube Data API v3. Google authorization is completed on Google’s own pages. YMonstr does not request or store your Google password. Google’s processing is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <h2>2. Information accessed and stored</h2>
+    <ul>
+      <li><strong>Channel and video data:</strong> channel IDs and names, video IDs, titles, descriptions, tags, thumbnails or thumbnail references, publication times, visibility, durations, and statistics such as views, likes and comment counts.</li>
+      <li><strong>Playlist data:</strong> playlist IDs, titles, descriptions and video membership used to organize the channel.</li>
+      <li><strong>Comments:</strong> comment text and identifiers, author channel identifiers and publication status needed to check for duplicates, publish approved comments and verify the result. Reading comment threads can also return public comments written by other users.</li>
+      <li><strong>Authorization credentials:</strong> OAuth access tokens, refresh tokens, expiration information and the authorized channel ID, stored locally for API access.</li>
+      <li><strong>Operator-provided content:</strong> original video files, thumbnail files, proposed metadata, comment drafts, publication plans and schedules supplied for the operator’s tasks.</li>
+      <li><strong>Local records:</strong> API responses, SQLite records, JSON exports, reports, operation logs, upload progress and publication results. These may contain private or scheduled video metadata if the operator has authorized access.</li>
+      <li><strong>Support requests:</strong> your email address and the information you choose to include when contacting the operator. Do not send passwords or tokens.</li>
+    </ul>
+    <p>The current toolkit does not request access to Gmail, Drive, Contacts, YouTube Analytics API, or YouTube Reporting API. It uploads original files supplied by the operator; it does not download YouTube audiovisual content.</p>
+    <h2>3. Why the information is used</h2>
+    <p>Information is used to identify the authorized channel, prepare local catalog reports, plan content, upload videos, change approved metadata and thumbnails, apply approved visibility and scheduling settings, maintain playlist membership, publish approved comments, prevent duplicate operations and verify results. Tokens are used only to authenticate authorized requests and refresh access when needed.</p>
+    <p>The current OAuth permission is <code>https://www.googleapis.com/auth/youtube.force-ssl</code>. It grants broad YouTube read and write capabilities. YMonstr’s current features and the owner’s instructions determine which operations are performed; the permission itself is not limited to a single video or task.</p>
+    <h2>4. Storage and access</h2>
+    <p>The toolkit stores its working data on the operator’s computer in local files and databases. OAuth credentials are stored separately from website files and are excluded from source-control publication. This is local file storage; this policy does not represent it as application-level encrypted storage.</p>
+    <p>The public website and repository contain information pages and branding assets, not a live channel database or an OAuth sign-in service. The operator is responsible for protecting the computer, restricting file access and keeping credentials and private records out of public repositories, shared folders and backups accessible to others.</p>
+    <h2>5. Sharing and external processing</h2>
+    <p>API requests send the data needed for the requested operation to Google and YouTube. Publishing a video, metadata, playlist item or comment makes that information available through YouTube according to the selected visibility and YouTube’s own behavior. An approved publication action is a disclosure to that audience.</p>
+    <p>The operator may use separately authorized assistants or service providers, including OpenAI tools or Google Gemini, to help review selected metadata, reports or content drafts. Such processing must be limited to the approved channel-management task and the information needed for it. Private channel data must not be sent to another provider without the authorizing user’s explicit approval. OAuth tokens and client credentials must not be included in assistant prompts or public documents. The receiving provider processes submitted information under its applicable terms and privacy policy: <a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p>YMonstr does not sell Google user data, use it for targeted advertising, or use it to train generalized artificial intelligence or machine-learning models. Google user data may be disclosed where required by applicable law or to address abuse or security incidents, limited to what is necessary.</p>
+    <h2>6. Retention and deletion</h2>
+    <p>The operator retains only the local data needed for the authorized workflow. Cached YouTube API metadata and other API data subject to YouTube’s 30-day limit must be refreshed or deleted within 30 calendar days. Where YouTube permits longer retention of authorized statistics, the operator must reconfirm authorization and the availability of the underlying resource at least every 30 days. These are operator-managed retention obligations; the current toolkit does not provide an automatic background deletion service.</p>
+    <p>Tokens are retained only while needed for authorized access. To request deletion of stored user data and credentials, email <a href="mailto:maratgood@gmail.com?subject=YMonstr%20data%20deletion">maratgood@gmail.com</a> with the subject “YMonstr data deletion” and identify the channel concerned. The operator may request reasonable confirmation that you control the channel. Requested app data deletion is handled as soon as possible and within seven calendar days, including related local exports and backups under the operator’s control.</p>
+    <p>You can revoke YMonstr’s access at any time through <a href="https://myaccount.google.com/connections">Google Account connections</a>, also available through <a href="https://security.google.com/settings/security/permissions">Google’s permissions settings</a>. Revocation stops future authorized access; it does not itself erase existing local files. The operator must remove related stored API data as soon as possible and within 30 calendar days after revocation through Google’s settings. If you also request deletion directly from the operator, the seven-day deletion deadline applies.</p>
+    <p>Deleting YMonstr’s local data does not delete videos, comments, playlists or other content stored by YouTube. Manage those resources in YouTube or through a separately authorized operation. Original media files provided by the operator remain under the operator’s control and can be deleted independently.</p>
+    <h2>7. Website hosting, cookies and device data</h2>
+    <p>This static website is hosted on GitHub Pages. It contains no advertising, analytics scripts, tracking pixels, embedded videos, forms, or app cookies, and does not use browser local storage. Requests to GitHub Pages necessarily disclose connection information such as your IP address to the hosting provider, which may keep security and service logs under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. Emailing support uses your email provider and the operator’s email service.</p>
+    <h2>8. Limited Use</h2>
+    <p>YMonstr’s use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <h2>9. Changes and contact</h2>
+    <p>Updates will be published on this page with a revised effective date. Before Google user data is used for a materially different purpose, the operator must disclose the change and obtain any additional consent required. For access, correction, deletion, privacy questions or complaints, contact <a href="mailto:maratgood@gmail.com">maratgood@gmail.com</a>.</p>
+  </article>
+</main>
+  <footer class="wrap footer">
+    <p><strong>YMonstr</strong> · Operated by the GameChAInger channel owner.</p>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="mailto:maratgood@gmail.com">Contact</a></p>
+    <p class="muted">Independent application using YouTube API Services. Not affiliated with or endorsed by Google or YouTube.</p>
+  </footer>
+</body>
+</html>
